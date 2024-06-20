@@ -5,8 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiamondShopSystem.WPFApp.UI.Products"
         mc:Ignorable="d"
-        Title="ProductDetail" Height="450" Width="800">
+        Title="ProductDetail" Height="450" Width="1000">
     <Grid>
-        
+        <StackPanel Orientation="Vertical">
+            <GroupBox Header="Product Form" Margin="10" >
+                <Grid Height="110">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="ID: " FontWeight="Bold" Grid.Row="0" Grid.Column="0"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1"  x:Name="ProductIdBlockText" Height="25"  />
+                    <TextBlock Text="Name: " FontWeight="Bold" Grid.Row="0" Grid.Column="2"/>
+                    <TextBlock Grid.Row="0" Grid.Column="3"  x:Name="ProductNameBlockText" Height="25" />
+                    <TextBlock Text="Diamond: " FontWeight="Bold" Grid.Row="0" Grid.Column="4" />
+                    <TextBlock Grid.Row="0" Grid.Column="5"  x:Name="DiamondBlockText" Height="25" />
+                    <TextBlock Text="Brand: " FontWeight="Bold" Grid.Row="1" Grid.Column="0"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1"  x:Name="BrandBlockText" Height="25"  />
+                    <TextBlock Text="CategoryId: " Grid.Row="1" Grid.Column="2" FontWeight="Bold"/>
+                    <TextBlock Grid.Row="1" Grid.Column="3"  x:Name="CategoryIdBlockText" Height="25"  />
+                    <TextBlock Text="Price: " FontWeight="Bold" Grid.Row="1" Grid.Column="4"/>
+                    <TextBlock Grid.Row="1" Grid.Column="5"  x:Name="PriceBlockText" Height="25"  />
+                    <TextBlock Text="Size: " FontWeight="Bold" Grid.Row="2" Grid.Column="0"/>
+                    <TextBlock Grid.Row="2" Grid.Column="1"  x:Name="SizeBlockText" Height="25"  />
+                    <TextBlock Text="Quantity: " FontWeight="Bold" Grid.Row="2" Grid.Column="2"/>
+                    <TextBlock Grid.Row="2" Grid.Column="3"  x:Name="QuantityBlockText" Height="25"  />
+                    <TextBlock Text="Status: " Grid.Row="2" Grid.Column="4" FontWeight="Bold"/>
+                    <TextBlock Grid.Row="2" Grid.Column="5"  x:Name="StatusBlockText" Height="25"  />
+                    <TextBlock Text="Image: " Grid.Row="3" Grid.Column="0" FontWeight="Bold"/>
+                    <TextBlock Grid.Row="3" Grid.Column="1"  x:Name="ImageBlockText" Height="25"  />
+                    <TextBlock Text="Description: " Grid.Row="3" Grid.Column="2" FontWeight="Bold"/>
+                    <TextBlock Grid.Row="3" Grid.Column="3"  x:Name="DescriptionBlockText" Height="25"  />
+                </Grid>
+            </GroupBox>
+            <StackPanel Height="40" Orientation="Horizontal" HorizontalAlignment="Right" Width="171">
+                <Button x:Name="ButtonCancel" Content="Cancel" FontSize="15" Foreground="White"  Background="Red"  Height="30" Width="80" Click="ButtonCancel_Click" />
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

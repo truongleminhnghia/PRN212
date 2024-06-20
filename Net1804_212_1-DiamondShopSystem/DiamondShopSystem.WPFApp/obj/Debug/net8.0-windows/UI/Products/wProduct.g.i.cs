@@ -165,7 +165,7 @@ namespace DiamondShopSystem.WPFApp.UI.Products {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DiamondShopSystem.WPFApp;V1.0.0.0;component/ui/products/wproduct.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DiamondShopSystem.WPFApp;component/ui/products/wproduct.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\Products\wProduct.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

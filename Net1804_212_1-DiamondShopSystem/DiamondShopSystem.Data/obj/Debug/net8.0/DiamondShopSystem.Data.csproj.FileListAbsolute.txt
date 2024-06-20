@@ -12,3 +12,4 @@ D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\D
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.pdb
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.genruntimeconfig.cache
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\ref\DiamondShopSystem.Data.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.sourcelink.json

@@ -78,3 +78,4 @@ D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\D
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.WPFApp\obj\Debug\net8.0-windows\DiamondShopSystem.WPFApp.pdb
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.WPFApp\obj\Debug\net8.0-windows\DiamondShopSystem.WPFApp.genruntimeconfig.cache
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.WPFApp\obj\Debug\net8.0-windows\ref\DiamondShopSystem.WPFApp.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.WPFApp\obj\Debug\net8.0-windows\DiamondShopSystem.WPFApp.sourcelink.json
