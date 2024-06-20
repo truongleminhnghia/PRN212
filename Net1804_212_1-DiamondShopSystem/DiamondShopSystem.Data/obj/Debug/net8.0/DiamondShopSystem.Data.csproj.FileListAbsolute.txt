@@ -1,0 +1,14 @@
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\bin\Debug\net8.0\DiamondShopSystem.Data.deps.json
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\bin\Debug\net8.0\DiamondShopSystem.Data.runtimeconfig.json
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\bin\Debug\net8.0\DiamondShopSystem.Data.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\bin\Debug\net8.0\DiamondShopSystem.Data.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.csproj.AssemblyReference.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.AssemblyInfoInputs.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.AssemblyInfo.cs
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.csproj.CoreCompileInputs.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\refint\DiamondShopSystem.Data.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\DiamondShopSystem.Data.genruntimeconfig.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Data\obj\Debug\net8.0\ref\DiamondShopSystem.Data.dll

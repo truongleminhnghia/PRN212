@@ -1,0 +1,74 @@
+﻿<Window x:Class="DiamondShopSystem.WPFApp.UI.Products.wSearchProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiamondShopSystem.WPFApp.UI.Products"
+        mc:Ignorable="d"
+        Title="SearchProduct" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <GroupBox Header="Product Form" Margin="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="ProductName" Height="25" Text="{Binding Path=Product.ProductName, Mode=TwoWay}" Margin="5" Width="180" HorizontalAlignment="Left"/>
+                    <Label Grid.Row="0" Grid.Column="2" Content="Brand" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="Brand" Height="25" Text="{Binding Path=Product.Brand, Mode=TwoWay}" Margin="5" Width="180" HorizontalAlignment="Left"/>
+                    <Label Grid.Row="0" Grid.Column="4" Content="Diamond" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBox Grid.Row="0" Grid.Column="5" x:Name="Diamond" Height="25" Text="{Binding Path=Product.Diamond, Mode=TwoWay}" Margin="5" Width="180" HorizontalAlignment="Left"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Price" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="Price" Height="25" Text="{Binding Path=Product.Price, Mode=TwoWay}" Margin="5" Width="180" HorizontalAlignment="Left"/>
+                    <Label Grid.Row="1" Grid.Column="2" Content="Size" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBox Grid.Row="1" Grid.Column="3" x:Name="Size" Height="25" Text="{Binding Path=Product.Size, Mode=TwoWay}" Margin="5" Width="180" HorizontalAlignment="Left"/>
+                    <Label Grid.Row="1" Grid.Column="4" Content="Status" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <CheckBox Grid.Row="1" Grid.Column="5" x:Name="Status" IsChecked="{Binding Path=Product.Status, Mode=TwoWay}" Margin="5,13,0,10" HorizontalAlignment="Left"/>
+                </Grid>
+            </GroupBox>
+
+            <StackPanel Height="40" Orientation="Horizontal" HorizontalAlignment="Right" Width="250">
+                <Button x:Name="ButtonSearch" Content="Search" Height="30" Width="80" Click="ButtonSearch_Click" />
+                <Button x:Name="ButtonViewDetail" Content="ViewDetail" Height="30" Width="80" />
+                <Button  Content="Cancel" Height="30" Width="80" Click="ButtonCloess_Click" />
+            </StackPanel>
+
+            <StackPanel Height="210">
+                <DataGrid x:Name="grdProduct" AutoGenerateColumns="False" ItemsSource="{Binding Product}" CanUserAddRows="False" Height="200" Margin="10"
+                        MouseDoubleClick="grdProduct_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Path=ProductId}" Visibility="Visible"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Path=ProductName}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Brand" Binding="{Binding Path=Brand}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Diamond" Binding="{Binding Path=Diamond}" Width="100" Visibility="Visible"/>
+                        <DataGridTextColumn Header="CategoryId" Binding="{Binding Path=CategoryId}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Price" Binding="{Binding Path=Price}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Size" Binding="{Binding Path=Size}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Quantity" Binding="{Binding Path=Quantity}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Description" Binding="{Binding Path=Description}" Width="100" IsReadOnly="True"/>
+                        <DataGridTemplateColumn Width="50">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <!--<Button Content="Delete" x:Name="ButtonDelete" CommandParameter="{Binding Path=CustomerId}"
+                        Click="grdCustomer_ButtonDelete_Click"/>-->
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

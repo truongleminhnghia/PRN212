@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondShopSystem.WPFApp", "DiamondShopSystem.WPFApp\DiamondShopSystem.WPFApp.csproj", "{51345573-99EE-408D-813A-4B9068991FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondShopSystem.Data", "DiamondShopSystem.Data\DiamondShopSystem.Data.csproj", "{C665E1FD-AC5B-47AE-8027-A00EFDE14C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondShopSystem.Common", "DiamondShopSystem.Common\DiamondShopSystem.Common.csproj", "{C2B2F0C3-CFA7-4F2B-983D-11CC0D3DCD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondShopSystem.Business", "DiamondShopSystem.Business\DiamondShopSystem.Business.csproj", "{23FE860F-C967-4472-81B3-17F809F39866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51345573-99EE-408D-813A-4B9068991FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51345573-99EE-408D-813A-4B9068991FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51345573-99EE-408D-813A-4B9068991FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51345573-99EE-408D-813A-4B9068991FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C665E1FD-AC5B-47AE-8027-A00EFDE14C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C665E1FD-AC5B-47AE-8027-A00EFDE14C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C665E1FD-AC5B-47AE-8027-A00EFDE14C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C665E1FD-AC5B-47AE-8027-A00EFDE14C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B2F0C3-CFA7-4F2B-983D-11CC0D3DCD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B2F0C3-CFA7-4F2B-983D-11CC0D3DCD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B2F0C3-CFA7-4F2B-983D-11CC0D3DCD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B2F0C3-CFA7-4F2B-983D-11CC0D3DCD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FE860F-C967-4472-81B3-17F809F39866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FE860F-C967-4472-81B3-17F809F39866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FE860F-C967-4472-81B3-17F809F39866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FE860F-C967-4472-81B3-17F809F39866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3DA13BB-859E-4FAA-B53D-F2FECB63650D}
+	EndGlobalSection
+EndGlobal

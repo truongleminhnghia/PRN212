@@ -1,0 +1,17 @@
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Business.deps.json
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Business.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Business.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Common.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Data.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Common.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\bin\Debug\net8.0\DiamondShopSystem.Data.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.csproj.AssemblyReference.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.AssemblyInfoInputs.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.AssemblyInfo.cs
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.csproj.CoreCompileInputs.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondS.E440016E.Up2Date
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\refint\DiamondShopSystem.Business.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\DiamondShopSystem.Business.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1-DiamondShopSystem\DiamondShopSystem.Business\obj\Debug\net8.0\ref\DiamondShopSystem.Business.dll

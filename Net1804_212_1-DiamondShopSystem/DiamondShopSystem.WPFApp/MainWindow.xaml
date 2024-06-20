@@ -1,0 +1,29 @@
+﻿<Window x:Class="DiamondShopSystem.WPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiamondShopSystem.WPFApp"
+        mc:Ignorable="d"
+        Title="DSS" Height="450" Width="1000">
+    <Grid>
+        <Menu Height="30" Name="menu1" Margin="0,0,0,0" VerticalAlignment="Top" BorderThickness="2" FontSize="16" FontWeight="Bold" Grid.ColumnSpan="3">
+            <MenuItem Header="Menu" IsCheckable="False" FontSize="16" >
+                <MenuItem Header="Product" IsCheckable="False" FontSize="12" >
+                    <MenuItem Header="Create Product" IsCheckable="False" FontSize="10" Click="Open_wProduct_Click">
+                    </MenuItem>
+                    <MenuItem Header="Search Product" IsCheckable="False" FontSize="10" Click="Open_wSearchProduct_Click">
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Customer" IsCheckable="False" FontSize="12">
+                </MenuItem>
+                <MenuItem Header="Order" IsCheckable="False" FontSize="12">
+                </MenuItem>
+                <MenuItem Header="OrderDetail" IsCheckable="False" FontSize="12">
+                </MenuItem>
+                <MenuItem Header="Company" IsCheckable="False" FontSize="12">
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
